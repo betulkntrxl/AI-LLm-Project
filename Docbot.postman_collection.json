@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "3d176044-44de-4f5e-bce9-74c845fb4058",
+		"name": "Docbot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35028068",
+		"_collection_link": "https://orange-resonance-34961.postman.co/workspace/GeldimApp-REST~eed06a07-a452-4b6e-8e49-bd9a1ea4e171/collection/35028068-3d176044-44de-4f5e-bce9-74c845fb4058?action=share&source=collection_link&creator=35028068"
+	},
+	"item": [
+		{
+			"name": "Heart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"input_text\": \"Patient is a 60-year-old male with a history of high blood pressure and high cholesterol. He experiences chest pain that worsens with physical activity and has a family history of heart disease. The patient also reports shortness of breath and fatigue after minimal exertion.\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/docbot",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"docbot"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lung",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"input_text\": \"The patient is a 55-year-old female who has been a heavy smoker for 30 years. She reports chronic coughing, coughing up blood, and chest pain. She also experiences wheezing and shortness of breath, especially at night. The patient has a history of exposure to occupational hazards and air pollution.\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/docbot",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"docbot"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Diabetes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"input_text\": \"The patient is a 55-year-old female who has been a heavy smoker for 30 years. She reports chronic coughing, coughing up blood, and chest pain. She also experiences wheezing and shortness of breath, especially at night. The patient has a history of exposure to occupational hazards and air pollution.\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/docbot",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"docbot"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
